@@ -1,0 +1,7 @@
+autogen
+streamlit
+groq
+openai
+anthropic
+ollama
+python-dotenv 
