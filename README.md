@@ -1,5 +1,7 @@
 # AutoGen Debugger & Prompt Evaluator
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 A streamlined tool for evaluating and improving LLM prompts with a chain of AutoGen agents.  
 It analyzes a *prompt / response* pair, suggests clearer prompts, generates a fresh answer, and compares results.
 
@@ -82,7 +84,7 @@ If no cloud keys are present, the app falls back to an Ollama instance running o
 
 ## Usage
 
-1. Enter a **prompt** and the LLM’s existing **Answer A**.  
+1. Enter a **prompt** and the LLM's existing **Answer A**.  
 2. Select an LLM backend in the sidebar.  
 3. Click **Run Evaluation**.  
    * The app runs Critic and Prompt Fixer.  
@@ -92,7 +94,7 @@ If no cloud keys are present, the app falls back to an Ollama instance running o
    * Critic Analysis
    * Improved Prompts
    * Response Comparison  
-5. Toggle “Export results as JSON” in the sidebar to download the run.
+5. Toggle "Export results as JSON" in the sidebar to download the run.
 
 ---
 
